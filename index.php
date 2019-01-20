@@ -33,7 +33,7 @@
         <form method="post">
         <div class="form-group">
         <label >Enter your number</label>
-        <input type ="text" name="guessed_num" class="form-control" id="guessed_num" value="" required/>
+        <input type ="text" name="guessed_num" class="form-control" id="guessed_num" value="" minlength="3" maxlength="3" required pattern="\d*" placeholder="Enter 3 digit number"/>
         </div>
         <div class="form-group">
             <input type="submit" name="validate" value="Validate Number" class="btn btn-sm btn-success" />
